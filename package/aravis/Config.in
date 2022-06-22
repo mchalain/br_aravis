@@ -1,0 +1,9 @@
+config BR2_PACKAGE_ARAVIS
+	bool "libaravis - GigE Camera"
+	select BR2_PACKAGE_LIBGLIB2
+	select BR2_PACKAGE_LIBXML2
+	select BR2_USE_WCHAR
+	select BR2_PACKAGE_PCRE
+	select BR2_PACKAGE_PCRE_16
+	select BR2_PACKAGE_PCRE_32
+	default y
